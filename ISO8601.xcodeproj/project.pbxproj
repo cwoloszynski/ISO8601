@@ -405,6 +405,7 @@
 					};
 					21B3A3E119894F4600322041 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 936EKNL558;
 						LastSwiftMigration = 0900;
 						TestTargetID = 21B3A3D619894F4600322041;
 					};
@@ -885,6 +886,7 @@
 		21B3A3F119894F4600322041 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 936EKNL558;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -893,7 +895,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "ISO8601Tests-iOS";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -901,11 +903,12 @@
 		21B3A3F219894F4600322041 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 936EKNL558;
 				INFOPLIST_FILE = "Support/Tests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "ISO8601Tests-iOS";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
